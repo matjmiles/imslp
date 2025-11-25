@@ -1,0 +1,136 @@
+# .gitignore for IMSLP Downloader
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+downloads/
+downloads_automated/
+*.log
+*.html
+debug_*.py
+test_*.py
+
+# Configuration (keep examples)
+works_config.json
+!examples/sample_config.json
+
+# Generated reports
+imslp_download_links.html
+*_download_links.html
+download_report.txt
+*.report
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# IMSLP specific
+imslp_api_results/
+imslp_final_report/
+imslp_targeted_results/
+main_page.html
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Large files
+*.pdf
+*.midi
+*.mid
+*.mp3
+*.wav

@@ -1,0 +1,55 @@
+{
+  "works_to_process": [
+    {
+      "composer": "Mozart, Wolfgang Amadeus",
+      "title": "Piano Sonata No.11, K.331",
+      "url": "https://imslp.org/wiki/Piano_Sonata_No.11,_K.331_(Mozart,_Wolfgang_Amadeus)"
+    },
+    {
+      "composer": "Chopin, Frédéric",
+      "title": "Nocturne in E-flat major, Op.9 No.2",
+      "url": "https://imslp.org/wiki/Nocturne_in_E-flat_major,_Op.9_No.2_(Chopin,_Frédéric)"
+    },
+    {
+      "composer": "Debussy, Claude",
+      "title": "Clair de Lune",
+      "url": "https://imslp.org/wiki/Suite_bergamasque_(Debussy,_Claude)"
+    }
+  ],
+  "settings": {
+    "links_per_work": 3,
+    "output_filename": "my_classical_collection.html",
+    "delay_between_requests": {
+      "min_seconds": 3,
+      "max_seconds": 6
+    },
+    "delay_between_works": {
+      "min_seconds": 2,
+      "max_seconds": 4
+    }
+  },
+  "filtering": {
+    "preferred_formats": ["pdf"],
+    "exclude_arrangements": false,
+    "min_file_size_kb": 50,
+    "max_file_size_mb": 100
+  },
+  "template_for_new_works": {
+    "composer": "Last_Name, First_Name",
+    "title": "Work Title with Opus/Catalog Number",
+    "url": "https://imslp.org/wiki/Work_Title_(Composer_Name)",
+    "notes": "Remember: spaces become underscores in URLs"
+  },
+  "examples": {
+    "bach_work": {
+      "composer": "Bach, Johann Sebastian",
+      "title": "Brandenburg Concerto No.1, BWV 1046", 
+      "url": "https://imslp.org/wiki/Brandenburg_Concerto_No.1,_BWV_1046_(Bach,_Johann_Sebastian)"
+    },
+    "beethoven_work": {
+      "composer": "Beethoven, Ludwig van",
+      "title": "Symphony No.9, Op.125",
+      "url": "https://imslp.org/wiki/Symphony_No.9,_Op.125_(Beethoven,_Ludwig_van)"
+    }
+  }
+}
