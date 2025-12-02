@@ -383,7 +383,16 @@ def get_default_config() -> Dict:
     }
 
 def main():
-    """Generate HTML report for the configured works"""
+    """Generate HTML report for the configured works or CSV file"""
+    
+    import sys
+    
+    # Check if CSV file argument is provided
+    if len(sys.argv) > 1 and sys.argv[1].endswith('.csv'):
+        print("🔄 CSV file detected - redirecting to CSV processor...")
+        print(f"Run: python csv_imslp_processor.py")
+        print("Or use the CSV processor directly for better CSV handling.")
+        return
     
     # Load configuration
     config = load_works_config()
